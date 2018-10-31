@@ -56,7 +56,7 @@ Server: rtmp://<your_server_ip>/app/
 Stream: live
 
 ## Web server playback.
-*Note: This bit of the guide is available in the html file on github, this section makes it easier to implment into your own project with the included html folder having styling already done.*
+*Note: This bit of the guide is available in the html file in the repo, this section makes it easier to implement into your own project with the included html folder having styling already done.*
 
 We are going to use the Video.js(https://videojs.com/) framework to replay the RTMP stream over http.
 
