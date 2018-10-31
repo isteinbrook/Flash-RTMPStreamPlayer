@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin|Open+Sans');
+
+html, body {
+background-color:#ECECEC;	
+margin:0;
+padding:0;
+font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+	font-family: 'Aladin', cursive;
+	font-size:25px;
+}
+
+.header {
+	background-color:white;	
+	font-size:20px;
+	padding-top:.5%;
+	padding-bottom:.5%;
+	padding-left:1%;
+	padding-right:2%;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;	
+}
+
+.appbg {
+	padding-top:1.5%;
+	background-color:#ECECEC;
+}
+
+.code {
+	background-color:#dddcdc;	
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+#nav{
+		font-size:20px;
+}
+
+a:link#nav, a:visited#nav, a:active#nav {
+    text-decoration: none;
+		color:black;
+}
+a:hover#nav {
+	text-decoration:none;
+	color:#007AED;
+}
+
+a:link#active, a:visited#active, a:active#active {
+    text-decoration: none;
+		color:#007AED;
+}
+
+.shoutBoxContainer {
+	height:720px;
+
+}
