@@ -8,7 +8,7 @@ A quick start guide on deploying a streaming service with basic playback.
 
 * Web server for playback
 
-## What framworks are used in the html files/project?
+## Framworks used in html folder
 * https://github.com/ossrs/srs
 * https://videojs.com/
 * http://simplegrid.io/
