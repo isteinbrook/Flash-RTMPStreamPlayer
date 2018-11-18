@@ -4,8 +4,8 @@
 A quick start guide on deploying a streaming service with basic playback. Examples uses unbuntu for steam handler and playback.
 
 ## Framworks used in html folder
-* https://videojs.com/
-* http://simplegrid.io/
+* https://github.com/videojs/video.js
+* https://github.com/zachacole/Simple-Grid
 
 ## Setting up a RTMP Stream Handler.
 *We are going to use ossrs(https://github.com/ossrs/srs) for our stream handler.*
@@ -53,7 +53,11 @@ Stream: live
 ## Web server playback.
 *Note: This bit of the guide is available in the html file in the repo, this section makes it easier to implement into your own project with the included html folder having styling already done.*
 
-We are going to use the Video.js(https://videojs.com/) framework to replay the RTMP stream over http.
+We are going to use the Video.js(https://github.com/videojs/video.js) framework to replay the RTMP stream over http.
+If your not into videojs some alternatives are:
+* Strobe - https://github.com/denivip/StrobeMediaPlayback
+* JWPlayer - https://github.com/jwplayer/jwplayer
+* Flow PLayer - https://github.com/flowplayer/flowplayer
 
 `<head>`
 ```html
