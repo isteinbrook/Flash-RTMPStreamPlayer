@@ -67,3 +67,6 @@ We are going to use the Video.js(https://videojs.com/) framework to replay the R
 ```
   
 **src="rtmp://<your_server_ip>/app/streamkey"** This is the important bit, change this to match the settings you input into obs. In the "Streaming to your custom server" section we used "live" for the streamkey.
+
+## Notes:
+With default installtion anyone with the knowledge of your origin server can stream to the server the stream handler is setup on.
