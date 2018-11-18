@@ -59,7 +59,10 @@ We are going to use the Video.js(https://videojs.com/) framework to replay the R
 ```html
 <link href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
 ```
-  
+```
+<script src="http://vjs.zencdn.net/4.11/video.js"></script>
+```
+
 `<body>`
 ```html
 <video id="player" class="video-js vjs-default-skin" controls autoplay preload="auto" width="100%" height="720px" data-setup='{}'> <source src="rtmp://<your_server_ip>/app/streamkey" type='rtmp/mp4'> 
