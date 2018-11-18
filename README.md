@@ -1,12 +1,7 @@
 # Flash-RTMPStreamPlayer
 
 ## What is this?
-A quick start guide on deploying a streaming service with basic playback.
-
-## What do I need?
-* Linux server for stream handler, this guide uses debian.
-
-* Web server for playback
+A quick start guide on deploying a streaming service with basic playback. Examples uses unbuntu for steam handler and playback.
 
 ## Framworks used in html folder
 * https://videojs.com/
@@ -16,6 +11,7 @@ A quick start guide on deploying a streaming service with basic playback.
 *We are going to use ossrs(https://github.com/ossrs/srs) for our stream handler.*
 
 ### Installing OSSRS
+*[Installing GIT on linux](https://gist.github.com/derhuerst/1b15ff4652a867391f03)*
 1. Go to your linux server and Download SRS:
 ```
 cd ~ && git clone https://github.com/ossrs/srs && cd srs/trunk
